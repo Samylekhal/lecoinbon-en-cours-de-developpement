@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lecoinbon</title>
+	</head>
+	<body>
+		<h1>Lecoinbon</h1>
+		<br>
+		<div>Lecoinbon est un site de vente en ligne entre particuliers toute ressemblance avec un tout autre site aux activités similaires est purement fortuite</div>
+		<br>
+		<form action="" method="post">
+			<input type="email" name="email" placeholder="Entrez votre adresse mail" required>
+			<br>
+			<input type="password" name="password" placeholder="Entrez votre mot de passe" required>
+			<br>
+			<input type="submit" value="se connecter">
+		</form>
+		<br>
+		<a href="{{ path('Inscription')}}">Vous n'avez pas de compte ? Inscrivez-vous !</a>
+		<br>
+		<a href="{{ path('Pageprincipal') }}">Continuer sans compte</a>
+	</body>
+</html>
